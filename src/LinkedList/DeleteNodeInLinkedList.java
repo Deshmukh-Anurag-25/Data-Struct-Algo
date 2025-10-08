@@ -8,19 +8,6 @@ package LinkedList;
  * and skips over the next node.
  */
 public class DeleteNodeInLinkedList {
-
-    /**
-     * Definition for singly-linked list node.
-     */
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     /**
      * Deletes the given node from the linked list.
      * The given node is guaranteed not to be the last node.
